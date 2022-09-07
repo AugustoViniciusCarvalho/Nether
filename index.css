@@ -21,7 +21,7 @@
 }
 
 #portal{
-    background-image: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/75/Nether_Portal_%28texture%29_JE2-a1.gif/revision/latest?cb=20200511210852);
+    background-image: url(portal.webp);
     background-size: 50%;
     background-repeat: repeat;
     grid-area: portal;
@@ -31,7 +31,7 @@ body{
     width: 100vw;
     height: 100vh;
     margin: 0;
-    background-image: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d9/Flatland.png/revision/latest?cb=20201118162652);
+    background-image: url(background.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
