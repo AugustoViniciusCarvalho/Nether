@@ -1,0 +1,52 @@
+#left, #top, #right, #bottom{
+    background-image: url(https://www.craftycreations.net/wp-content/uploads/2019/08/Obsidian-Block.png);
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+#left{
+    grid-area: left;
+}
+
+#top{
+    grid-area: top;
+}
+
+#right{
+    grid-area: right;
+}
+
+#bottom{
+    grid-area: bottom;
+}
+
+#portal{
+    background-image: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/75/Nether_Portal_%28texture%29_JE2-a1.gif/revision/latest?cb=20200511210852);
+    background-size: 50%;
+    background-repeat: repeat;
+    grid-area: portal;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d9/Flatland.png/revision/latest?cb=20201118162652);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#construct{
+    width: 25%;
+    height: 55%;
+    margin: 0 auto;
+    padding-top: 12.5%;
+    display: grid;
+    grid-template-areas: 
+    'left top top right'
+    'left portal portal right'
+    'left portal portal right'
+    'left portal portal right'
+    'left bottom bottom right'
+    ;
+}
